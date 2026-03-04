@@ -7,6 +7,12 @@ public class GestorTareas {
         this.listaTareas = new ArrayList<>();
     }
 
+    public void añadirTarea(String descripcion) {
+
+        listaTareas.add(new Tarea(descripcion));
+
+    }
+
     public void mostrarTareas() {
 
         if (listaTareas.isEmpty()) {
@@ -18,3 +24,4 @@ public class GestorTareas {
         }
     }
 }
+
