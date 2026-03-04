@@ -13,11 +13,17 @@ public class Tarea {
 
     }
 
-    public String getDescripcion() { return descripcion; }
+    public String getDescripcion() {
+        return descripcion;
+    }
 
-    public boolean isCompletada() { return completada; }
+    public boolean isCompletada() {
+        return completada;
+    }
 
-    public void setCompletada(boolean completada) { this.completada = completada; }
+    public void setCompletada(boolean completada) {
+        this.completada = completada;
+    }
 
     @Override
 
