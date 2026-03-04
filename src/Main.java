@@ -10,7 +10,7 @@ public class Main {
 
         int opcion = 0;
 
-        while (opcion != 4) {
+        while (opcion != 3) {
 
             System.out.println("\n--- MENÚ DE TAREAS ---");
 
@@ -18,7 +18,7 @@ public class Main {
 
             System.out.println("2. Listar Tareas");
 
-            System.out.println("4. Salir");
+            System.out.println("3. Salir");
 
             System.out.print("Elige una opción: ");
 
@@ -39,6 +39,11 @@ public class Main {
                 case 2:
 
                     gestor.mostrarTareas();
+
+                    break;
+                case 3:
+
+                    System.out.println("Saliendo...");
 
                     break;
 
