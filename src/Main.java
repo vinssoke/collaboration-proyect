@@ -1,7 +1,15 @@
 import java.util.Scanner;
 
+/**
+ * @author Celeste,Marco
+ * @version 2.0
+ * @since 2026
+ */
 public class Main {
-
+    /**
+     *
+     * @param args metodo para el menu con sus diferentes opciones
+     */
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
